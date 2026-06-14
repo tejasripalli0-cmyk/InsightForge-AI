@@ -37,11 +37,11 @@ if uploaded_file:
         fig, ax = plt.subplots()
 
         selected_col = st.selectbox(
-    "Select column for visualization",
-    numeric_cols
-)
+        "Select column for visualization",
+        numeric_cols
+        )
 
-clean_df[selected_col].hist(ax=ax)
+        clean_df[selected_col].hist(ax=ax)
 
         st.pyplot(fig)
 
