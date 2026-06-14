@@ -1,7 +1,8 @@
 EmployeeID,Department,Age,Experience,Salary,PerformanceScore
 
 1001,IT,22,1,35000,70
-1002,HR,23,1,36000,
+1002,HR,23,1,36000,72
+
 1003,Finance,24,2,39000,74
 1004,Marketing,25,2,41000,75
 1005,IT,26,3,44000,77
